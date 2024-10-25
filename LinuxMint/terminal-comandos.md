@@ -9,6 +9,7 @@ history(ver o histórico de comandos)
 $ = Usuário comum
 # = Usuário Root(Administrador)
 ~ = (Alias) Diretório Home 
+-v = Detalhado
 -------------------------------------------------
 pwd = Mostra localização atual do diretório atual
 -------------------------------------------------
@@ -17,7 +18,7 @@ ls -l = Modo lista dos arquivos
 ls -lh = Converte em kb, mb, kb...
 ls -lha = Mostra TUDO que tem no diretório(Arquivos ocultos) 
 -------------------------------------------------
-Git clone = Clonar repositórios
+git clone = Clonar repositórios
 git config = configurar git local
 git config --global user.name (Nome)
 git config --global user.email (Email) 
@@ -35,6 +36,28 @@ echo = Imprimi na tela
 touch = mudar arquivos
 -------------------------------------------------
 > = Redireciona
+>> = Adiciona
+-------------------------------------------------
+cat = Mostra o conteúdo do arquivo 
+cat -n = Mostra o número de linhas
+-------------------------------------------------
+cp = copiar
+-------------------------------------------------
+tac = inverte a ordem  
+-------------------------------------------------
+less = ler conteúdo de arquivo  
+-------------------------------------------------
+mv = Move e deleta arquivos
+-------------------------------------------------
+rm = Apaga arquivos
+rm -Rv = Apaga tudo(Inclusive diretorio)  
+rm -Rfv Apaga de forma forçada
+-------------------------------------------------
+tail = Ver as 10 últimas linhas do arquivo
+tail -n(Número) = Mostra as ultimas linhas 
+-------------------------------------------------
+head = Ver os 10 primeiras linhas do arquivo
+head -n(Numero) = Mostra as primeiras linhas
 -------------------------------------------------
 mkdir = cria um diretório
 man mkdir = Manual 
