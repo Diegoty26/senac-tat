@@ -1,0 +1,37 @@
+Esc + Shift + : = Entrar no modo de comando
+Insert (I) = Modo de Inserção
+Insert (I) 2x = Modo de substituição
+--------------------------------------------------------
+:q = Sair 
+Sair forçado = ! 
+--------------------------------------------------------
+Sair Salvando = ?wq
+Sair Salvando = :x 
+--------------------------------------------------------
+Ctrl Shift V = Colar
+--------------------------------------------------------
+Enew: Criar novo arquivo
+--------------------------------------------------------
+e.: Listar arquivos
+e nome_arquivo(TAB):
+--------------------------------------------------------
+dd: Deletar parágrafo 
+Deletar Tudo: dG
+--------------------------------------------------------
+Desfazer: U 
+Refazer: ctrl R
+--------------------------------------------------------
+Ir para o fim: :$
+Ir para o inicio: :0
+Mostrar as linhas: set number
+--------------------------------------------------------
+Temporário(/tmp) 
+--------------------------------------------------------
+Divisão horizontal: :split ou :sp
+Divisão vertical: :vsplit :vsp
+Ctrl-w seguido de h: (esquerda)
+Ctrl-w seguido de j: (baixo)
+Ctrl-w seguido de k: (cima)
+Ctrl-w seguido de l: (direita)
+Fechar uma janela: :close
+--------------------------------------------------------
